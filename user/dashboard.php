@@ -114,7 +114,7 @@ unset($_SESSION['wire_transfer'], $_SESSION['dom_transfer']);
                     </div>
                     <div class="my-3">
                         <script src="https://cdn.logwork.com/widget/text.js"></script>
-                        <a href="https://logwork.com/clock-widget/" class="clock-widget-text" data-timezone="Africa/Lagos" data-language="en">Time</a>
+                        <a href="https://logwork.com/clock-widget/" class="clock-widget-text" data-timezone="Africa/Lagos" data-language="en" data-digitscolor="#374bca">Time</a>
                     </div>
                 </div>
             </div>
