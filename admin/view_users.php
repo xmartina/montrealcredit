@@ -165,18 +165,21 @@ if(isset($_POST['status_delete'])){
 
 
 if(isset($_POST['change_pin'])){
-    $current_pin = inputValidation($_POST['current_pin']);
+//    $current_pin = inputValidation($_POST['current_pin']);
     $new_pin = inputValidation($_POST['new_pin']);
     $confirm_pin = inputValidation($_POST['confirm_pin']);
     $verify_pin = $row['acct_pin'];
 
-    if($current_pin !== $verify_pin){
-        toast_alert('error','Invalid Old Pin');
-    }else if($new_pin !== $confirm_pin){
+//    if($current_pin !== $verify_pin){
+//        toast_alert('error','Invalid Old Pin');
+//    }else
+    if($new_pin !== $confirm_pin){
         toast_alert('error','Confirm Pin not Matched');
-    }else if($new_pin == $verify_pin){
-        toast_alert('error','New Pin Matched with Old Pin');
-    }else{
+    }
+//    else if($new_pin == $verify_pin){
+//        toast_alert('error','New Pin Matched with Old Pin');
+//    }
+else{
         $sql2 = "UPDATE users SET acct_pin=:acct_pin WHERE id =:acct_id";
         $passwordUpdate = $conn->prepare($sql2);
         $passwordUpdate->execute([
@@ -589,11 +592,11 @@ die;
                                     </div>
                                     <div class="row">
                                         <div class="col-md-11 mx-auto">
-                                            <div class="form-group">
-<!--                                                <p class="text-danger"></p>-->
-                                                <label>Current Pin</label>
-                                                <input type="password" class="form-control mb-4" name="current_pin" placeholder="Current Pin" value="">
-                                            </div>
+<!--                                            <div class="form-group">-->
+<!--<!--                                                <p class="text-danger"></p>-->-->
+<!--                                                <label>Current Pin</label>-->
+<!--                                                <input type="password" class="form-control mb-4" name="current_pin" placeholder="Current Pin" value="">-->
+<!--                                            </div>-->
                                             <div class="form-group">
                                                 <label>New Pin</label>
                                                 <input type="password" class="form-control mb-4" name="new_pin" placeholder="New Pin" value="">
