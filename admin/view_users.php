@@ -593,7 +593,7 @@ die;
                                     <div class="row">
                                         <div class="col-md-11 mx-auto">
 <!--                                            <div class="form-group">-->
-<!--<!--                                                <p class="text-danger"></p>-->-->
+<!--                                                <p class="text-danger"></p>-->
 <!--                                                <label>Current Pin</label>-->
 <!--                                                <input type="password" class="form-control mb-4" name="current_pin" placeholder="Current Pin" value="">-->
 <!--                                            </div>-->
