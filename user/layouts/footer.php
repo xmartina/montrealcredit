@@ -18,14 +18,19 @@
     <div class="modal-content">
         <span class="close">&times;</span>
         <div class="row">
-            <div class="col-lg-6">
-                <div class="btn bg-info"  onclick="location.href='../user/domestic-transfer.php'">
-                    Domestic Transfer
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="btn bg-success text-light"  onclick="location.href='../user/wire-transfer.php'">
-                    Wire Transfer
+            <div class="col-lg-8"></div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="btn bg-info"  onclick="location.href='../user/domestic-transfer.php'">
+                            Domestic Transfer
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="btn bg-success text-light"  onclick="location.href='../user/wire-transfer.php'">
+                            Wire Transfer
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
