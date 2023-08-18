@@ -11,8 +11,28 @@
 </div>
 </div>
 <!--  END CONTENT AREA  -->
+<!--Start Home Transfer Modal-->
+<div id="myModal" class="modal">
 
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="btn bg-info"  onclick="location.href='../user/domestic-transfer.php'">
+                    Domestic Transfer
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="btn bg-success text-light"  onclick="location.href='../user/wire-transfer.php'">
+                    Wire Transfer
+                </div>
+            </div>
+        </div>
 
+    </div>
+
+</div>
 </div>
 </div>
 <!-- END MAIN CONTAINER -->
@@ -278,6 +298,33 @@ s0.parentNode.insertBefore(s1,s0);
         });
         return false;
     });
+
+    // Open Homepage Withdrawal Modal
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("homeTransModal");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
 </script>
 
 <!--Tidio Plugin-->

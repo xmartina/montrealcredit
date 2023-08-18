@@ -214,7 +214,7 @@ if ($row['acct_currency'] === 'USD') {
         }
     }
     </style>
-
+    <link rel="stylesheet" href="/assets/css/extras-added.css">
 
 </head>
 
