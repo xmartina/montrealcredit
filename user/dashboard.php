@@ -21,7 +21,7 @@ unset($_SESSION['wire_transfer'], $_SESSION['dom_transfer']);
 
         <div class="row layout-top-spacing">
 
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-4 layout-spacing layout-visible">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 layout-spacing">
                 <div class="widget widget-three">
                     <div class="widget-heading">
                         <h5 class="">Summary</h5>
@@ -113,8 +113,8 @@ unset($_SESSION['wire_transfer'], $_SESSION['dom_transfer']);
 
                     </div>
                     <div class="my-3">
-                        <script src="https://cdn.logwork.com/widget/text.js"></script>
-                        <a href="https://logwork.com/clock-widget/" class="clock-widget-text" data-timezone="Africa/Lagos" data-language="en" data-digitscolor="#374bca">Time</a>
+                        <script src="https://cdn.logwork.com/widget/clock.js"></script>
+                        <a href="https://logwork.com/clock-widget/" class="clock-time" data-style="default-numeral" data-size="250" data-timezone="Africa/Lagos">Current time</a>
                     </div>
                 </div>
             </div>
