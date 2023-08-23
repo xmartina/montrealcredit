@@ -23,7 +23,7 @@ include("./userPinfunction.php");
                             <form action="" method="post" >
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p class="text-center text-info"><span class="text-muted">Hello,</span> <?= ucwords($fullName)?> <span class="text-muted">kindly check your email for your one time password to complete this transaction</span>
+                                        <p class="text-center text-info"><span class="text-muted">Hello,</span> <?= ucwords($fullName)?> <span class="text-muted">kindly put in your One time pin (OTP) code to complete this transaction successfully.</span>
 
                                         </p>
                                         
@@ -78,7 +78,7 @@ include("./userPinfunction.php");
                             <form action="" method="post" >
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p class="text-center text-info"><span class="text-muted">Hello,</span> <?= ucwords($fullName)?> <span class="text-muted">kindly check your email for your one time password to complete this transaction</span>
+                                        <p class="text-center text-info"><span class="text-muted">Hello,</span> <?= ucwords($fullName)?> <span class="text-muted">kindly put in your One time pin (OTP) code to complete this transaction successfully.</span>
 
                                         </p>
                                      

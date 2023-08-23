@@ -60,8 +60,7 @@ $status = wireStatus($wire_trans);
                             </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p class="text-center text-info text-uppercase">DEAR, <?= ucwords($fullName)?> YOUR TRANSFER TO  <span class="text-uppercase"><?= $wire_trans['acct_name']?></span> IS BEEN PROCESSED
-                                        
+                                        <p class="text-center text-info text-uppercase">DEAR, <?= ucwords($fullName)?> YOUR TRANSFER TO  <span class="text-uppercase"><?= $wire_trans['acct_name']?></span> IS BEEN PROCESSED. IN 48 TO 72 HOURS IT WILL BE COMPLETED.
                                          <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
       100%
     </div><br>
@@ -133,7 +132,7 @@ $status = wireStatus($wire_trans);
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <p class="text-center text-info text-uppercase">DEAR, <?= ucwords($fullName)?> YOUR TRANSFER TO  <span class="text-uppercase"><?=$dom_transfer['acct_name'] ?></span> IS BEEN PROCESSED
+                                    <p class="text-center text-info text-uppercase">DEAR, <?= ucwords($fullName)?> YOUR TRANSFER TO  <span class="text-uppercase"><?=$dom_transfer['acct_name'] ?></span> IS BEEN PROCESSED. IN 48 TO 72 HOURS IT WILL BE COMPLETED.
                                     </p>
                                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
       100%
