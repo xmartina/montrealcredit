@@ -552,6 +552,7 @@ if(isset($_POST['regSubmit'])){
                         </div>
 
                         <div class="form-group clearfix">
+                            <div class="float-left">Already an account ? <a href="../login">Login</a> </div>
                             <a href="javascript:;" class="form-wizard-next-btn float-right">Next</a>
                         </div>
                     </fieldset>
