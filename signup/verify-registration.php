@@ -555,7 +555,7 @@ if(isset($_POST['regSubmit'])){
                             <div class="d-none d-lg-block d-xl-block">Already an account ? <a href="../login" class="text-info">Login</a> </div>
                             <a href="javascript:;" class="form-wizard-next-btn flex-end">Next</a>
                         </div>
-                        <div class="d-none d-sm-block my-3 text-center d-md-block">Already an account ? <a href="../login" class="text-info">Login</a> </div>
+                        <div class="d-none d-sm-block my-3 text-center">Already an account ? <a href="../login" class="text-info">Login</a> </div>
                     </fieldset>
                     <fieldset class="wizard-fieldset">
                         <h5>Create your login</h5>
