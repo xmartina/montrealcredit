@@ -552,7 +552,7 @@ if(isset($_POST['regSubmit'])){
                         </div>
 
                         <div class="form-group clearfix d-flex align-items-center flex-wrap justify-content-between w-100">
-                            <div class="my-2">Already an account ? <a href="../login" class="text-info">Login</a> </div>
+                            <div class="my-sm-3 my-2">Already an account ? <a href="../login" class="text-info">Login</a> </div>
                             <a href="javascript:;" class="form-wizard-next-btn flex-end my-2">Next</a>
                         </div>
                     </fieldset>
