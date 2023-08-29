@@ -317,7 +317,8 @@ unset($_SESSION['wire_transfer'], $_SESSION['dom_transfer']);
                                     <td><?= $result['acct_routing'] ?></td>
                                     <td><?= $result['createdAt'] ?></td>
                                     <!--                        <td>--><?php //= $result['created_at'] ?><!--</td>-->
-                                    <td><?php
+                                    <td>
+                                        <?php
                                         if ($result['wire_status']==0){?>
                                             <span class="badge outline-badge-secondary shadow-none col-md-12">In Progress</span>
                                             <?php } elseif ($result['wire_status']==1){ ?>

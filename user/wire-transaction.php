@@ -76,7 +76,18 @@ if (!$_SESSION['acct_no']) {
                         <td><?= $result['acct_routing'] ?></td>
                         <td><?= $result['createdAt'] ?></td>
 <!--                        <td>--><?php //= $result['created_at'] ?><!--</td>-->
-                        <td><?= $transStatus ?></td>
+                        <td>
+                            <?php
+                            if ($result['wire_status']==0){?>
+                                <span class="badge outline-badge-secondary shadow-none col-md-12">In Progress</span>
+                            <?php } elseif ($result['wire_status']==1){ ?>
+                                <span class="badge outline-badge-primary shadow-none col-md-12">Completed</span>
+                            <?php } elseif ($result['wire_status']==2){ ?>
+                                <span class="badge outline-badge-danger shadow-none col-md-12">Hold</span>
+                            <?php } elseif ($result['wire_status']==3){ ?>
+                                <span class="badge outline-badge-danger shadow-none col-md-12">Cancelled</span>
+                            <?php } ?>
+                        </td>
 
                     </tr>
                     <?php
